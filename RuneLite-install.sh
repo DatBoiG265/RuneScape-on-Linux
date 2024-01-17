@@ -18,7 +18,7 @@ java -jar RuneLite.jar
 echo "[Desktop Entry]
 Name=RuneLite
 Comment=Open Source RuneScape Launcher
-Icon=$HOME/RuneLite/icon.png
+Icon=$HOME/games/RuneLite/icon.png
 Exec=java -jar $HOME/games/RuneLite/RuneLite.jar
 Path=$HOME/games/RuneLite/
 Type=Application
