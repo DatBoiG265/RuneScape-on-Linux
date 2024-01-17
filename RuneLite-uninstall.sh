@@ -1,5 +1,6 @@
 #!/bin/bash
 
-rm -r /home/pi/.runelite/
-rm -r /home/pi/Games/RuneLite/
-rm -rf ~/bongocam/ ~/.local/share/applications/RuneLite.desktop
+sudo apt-get remove openjdk-17-jdk
+rm -r $HOME/.runelite/
+rm -r $HOME/games/RuneLite/
+rm -rf ~/.local/share/applications/RuneLite.desktop
