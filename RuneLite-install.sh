@@ -9,7 +9,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install openjdk-17-jdk-y
 wget https://github.com/runelite/launcher/releases/download/2.4.0/RuneLite.jar
 wget https://support.runescape.com/hc/article_attachments/360002378849/RS_Rune_final.png
-mv RS_Rune_final.png logo.png
+mv RS_Rune_final.png icon.png
 
 #Install
 java -jar RuneLite.jar
