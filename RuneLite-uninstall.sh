@@ -1,9 +1,8 @@
 #!/bin/bash
 
 #Deleting game files
-rm -r $HOME/.runelite/
 rm -r $HOME/games/RuneLite/
-rm -rf ~/.local/share/applications/RuneLite.desktop
+sudo rm -rf ~/usr/share/applications/RuneLite-OSRS.desktop
 
-#Allow packages required by this app to be uninstalled
-purge_packages || exit 1
+#Uninstalling packages required by this application
+sudo apt remove openjdk-17-jdk
