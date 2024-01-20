@@ -23,4 +23,4 @@ Path=$HOME/games/RuneLite/
 Type=Application
 Encoding=UTF-8
 Terminal=false
-Categories=Game;" > ~/.local/share/applications/RuneLite.desktop
+Categories=Game;" | sudo tee /usr/share/applications/RuneLite-OSRS.desktop
